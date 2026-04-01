@@ -130,9 +130,29 @@ h2 {
   font-weight: 600;
 }
 
-@media (max-width: 900px) {
+/* @media (max-width: 900px) {
   .container {
     flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    position: static;
+  }
+
+  .pub-card {
+    flex-direction: column;
+  }
+
+  .pub-image {
+    width: 100%;
+    max-width: 360px;
+  }
+} */
+
+@media (max-width: 760px) {
+  .container {
+    grid-template-columns: 1fr;
   }
 
   .sidebar {
