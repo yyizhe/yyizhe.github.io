@@ -40,10 +40,10 @@ body {
 
 .avatar {
   width: 120px;
-  height: 10px;
+  height: 170px;
   border-radius: 50% / 38%;
   object-fit: cover;
-  /* object-position: center top; */
+  object-position: center top;
   display: block;
   margin-bottom: 16px;
 }
