@@ -1,11 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Homepage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yizhe Yang - Homepage</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <h1>Hello</h1>
-  <p>This is my GitHub Pages homepage.</p>
+  <div class="container">
+    <aside class="sidebar">
+      <img src="assets/avatar.jpg" alt="avatar" class="avatar" />
+      <h1>Yizhe Yang</h1>
+      <p class="subtitle">Lanzhou University</p>
+
+      <div class="links">
+        <a href="mailto:yyizhe2023@lzu.edu.cn">Email</a>
+        <a href="https://github.com/yyizhe" target="_blank">GitHub</a>
+        <!-- <a href="https://scholar.google.com/" target="_blank">Google Scholar</a> -->
+      </div>
+
+      <nav class="nav">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#news">News</a>
+        <a href="#experience">Experience</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello, I’m Yizhe Yang, an undergraduate at Lanzhou University majoring in Physics with a minor in Management. My research primarily focuses on the development of applied large language models, particularly at the intersection of AI, geography, and atmospheric science, with an emphasis on building AI-driven solutions to current challenges in these fields. I am also involved in related areas of large language model research, including cross-modal alignment, safety alignment, and context engineering.
+        </p>
+      </section>
+
+      <section id="research">
+        <h2>Research Interests</h2>
+        <ul>
+          <li>Large Language Models</li>
+          <li>Reasoning</li>
+          <li>AI Agents</li>
+          <li>Alignment and Post-training</li>
+          <li>Multimodal Models</li>
+        </ul>
+      </section>
+
+      <section id="news">
+        <h2>News</h2>
+        <ul class="news-list">
+          <li><strong>2026.03</strong> Submitted a new paper on LLM reasoning.</li>
+          <li><strong>2026.02</strong> Started a new project on agent systems.</li>
+          <li><strong>2025.12</strong> Began research on multimodal foundation models.</li>
+        </ul>
+      </section>
+
+      <section id="experience">
+        <h2>Experience</h2>
+        <div class="timeline-item">
+          <h3>Researcher / Engineer, 某机构</h3>
+          <p>2025 – Present</p>
+          <p>
+            Working on large language models, evaluation, and real-world LLM systems.
+          </p>
+        </div>
+
+        <div class="timeline-item">
+          <h3>Degree, 某大学</h3>
+          <p>20XX – 20XX</p>
+          <p>Major in Computer Science / Artificial Intelligence / related field.</p>
+        </div>
+      </section>
+
+      <section id="publications">
+        <h2>Publications</h2>
+
+        <div class="pub-card">
+          <img src="assets/publications/pub1.jpg" alt="paper poster" class="pub-image" />
+          <div class="pub-text">
+            <h3>Paper Title Goes Here</h3>
+            <p class="authors">Your Name, Coauthor A, Coauthor B</p>
+            <p class="venue">Conference / Journal / ArXiv, 2026</p>
+            <p class="desc">
+              A short summary of the paper goes here.
+            </p>
+            <div class="pub-links">
+              <a href="#" target="_blank">Paper</a>
+              <a href="#" target="_blank">Code</a>
+              <a href="#" target="_blank">Project</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="pub-card">
+          <img src="assets/publications/pub2.jpg" alt="paper poster" class="pub-image" />
+          <div class="pub-text">
+            <h3>Another Paper Title</h3>
+            <p class="authors">Your Name, Coauthor C, Coauthor D</p>
+            <p class="venue">Under Review / Workshop, 2026</p>
+            <p class="desc">
+              Brief description for the second publication.
+            </p>
+            <div class="pub-links">
+              <a href="#" target="_blank">Paper</a>
+              <a href="#" target="_blank">Code</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>Email: yyizhe2023@lzu.edu.cn</p>
+        <p>GitHub: https://github.com/yyizhe</p>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
