@@ -20,21 +20,21 @@ body {
 
 .container {
   display: grid;
-  grid-template-columns: 230px minmax(0, 1fr);
-  max-width: 1200px;
+  grid-template-columns: 200px minmax(0, 1fr);
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 36px 20px;
-  gap: 32px;
+  padding: 28px 16px;
+  gap: 28px;
 }
 
 .sidebar {
-  width: 230px;
+  width: 200px;
   position: sticky;
   top: 20px;
   align-self: flex-start;
   background: #fff;
   border-radius: 16px;
-  padding: 24px 18px;
+  padding: 20px 16px;
   box-shadow: 0 6px 24px rgba(0,0,0,0.06);
 }
 
