@@ -66,6 +66,13 @@ body {
   margin-bottom: 10px;
   color: #0b57d0;
   text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.links a:hover,
+.nav a:hover,
+.pub-links a:hover {
+  color: #f4c542;
 }
 
 .nav {
