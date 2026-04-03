@@ -68,6 +68,18 @@ body {
   text-decoration: none;
 }
 
+.timeline-item a,
+.edu-row a {
+  color: #0b57d0;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.timeline-item a:hover,
+.edu-row a:hover {
+  color: #f4c542;
+}
+
 .links a,
 .nav a,
 .pub-links a {
@@ -111,6 +123,50 @@ h2 {
 
 .timeline-item {
   margin-bottom: 20px;
+}
+
+.edu-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px 28px;
+  align-items: center;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.edu-date {
+  font-weight: 600;
+  color: #333;
+}
+
+.edu-school {
+  color: #222;
+}
+
+.edu-degree {
+  color: #444;
+}
+
+.internship-item p {
+  margin: 0 0 8px;
+}
+
+.exp-date {
+  font-weight: 600;
+  color: #333;
+}
+
+.exp-role {
+  color: #222;
+}
+
+.exp-location {
+  color: #444;
+}
+
+.exp-sep {
+  margin: 0 8px;
+  color: #999;
 }
 
 .my-name {
